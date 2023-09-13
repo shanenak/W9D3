@@ -1,1 +1,48 @@
 /* Your code here */
+body {
+    text-align: center;
+}
+
+figure.ttt {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    flex-wrap: wrap;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+
+ul > li {
+    width: 30%;
+    height: 50px;
+    border: 1px solid black;
+    list-style: none;
+    background-color: lightgray;
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+li:hover {
+    background-color: lightyellow;
+}
+
+.x-player {
+    background-color: lightblue;
+}
+
+.o-player {
+    background-color: lightsalmon;
+}
+
+.winner {
+    background-color: lightgreen;
+}
