@@ -19,7 +19,10 @@ h1 {
 
 .welcome {
   font-weight: 400;
-  margin-top: 100px;
+}
+
+#party {
+  font-size: 50px;
 }
 
 /*  Phase 4: Slide In & Out Classes */
@@ -50,4 +53,21 @@ h1 {
 .slide.active {
   opacity: 1;
   transform: translateX(0%) scale(1);
+}
+
+.nav-bar {
+  display: flex;
+  align-content: center;
+  justify-content: space-around;
+  position: relative;
+  top: 40px;
+}
+
+.drop-down-dog-nav > ul, h3, a{
+  background-color: white;
+  color: gray;
+}
+
+.todo-container {
+  margin-top: 100px;
 }

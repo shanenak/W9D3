@@ -14,7 +14,8 @@ const dogLinkCreator = function() {
   for (const key in dogs) {
     const a = document.createElement("a")
     a.innerHTML = key;
-    a.href = dogs[key]
+    a.href = dogs[key];
+    a.target = "_blank";
     const li = document.createElement("li")
     li.className = 'dog-link'
     li.setAttribute("hidden", "hidden")

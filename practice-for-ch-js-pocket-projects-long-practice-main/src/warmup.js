@@ -9,4 +9,4 @@ export const htmlGenerator = (string, htmlElement) => {
     htmlElement.append(p);
 };
 
-htmlGenerator('Party time!!.', partyHeader);
+// htmlGenerator('Party time!!.', partyHeader);
